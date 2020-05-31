@@ -6,4 +6,10 @@
 //  Copyright © 2020 MinG._. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class TestCell: UITableViewCell {
+    static let identifier = "TestCell"
+    
+    //@IBOutlet weak var label: UILabel!
+}
