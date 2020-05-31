@@ -1,0 +1,6 @@
+framework module Pods_RxSwiftShareTest {
+  umbrella header "Pods-RxSwiftShareTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

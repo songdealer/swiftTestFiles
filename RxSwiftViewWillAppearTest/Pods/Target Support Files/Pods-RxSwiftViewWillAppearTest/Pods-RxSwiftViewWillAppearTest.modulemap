@@ -1,0 +1,6 @@
+framework module Pods_RxSwiftViewWillAppearTest {
+  umbrella header "Pods-RxSwiftViewWillAppearTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

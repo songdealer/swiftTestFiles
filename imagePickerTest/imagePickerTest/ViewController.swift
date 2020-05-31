@@ -38,3 +38,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
         }
     }
 }
+
+extension UIImagePickerController {
+    
+}

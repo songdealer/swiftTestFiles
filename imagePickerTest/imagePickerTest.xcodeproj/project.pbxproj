@@ -14,6 +14,7 @@
 		CE1500A8236ADC84000CAF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1500A6236ADC84000CAF54 /* LaunchScreen.storyboard */; };
 		CE1500B3236ADC84000CAF54 /* imagePickerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1500B2236ADC84000CAF54 /* imagePickerTestTests.swift */; };
 		CE1500BE236ADC84000CAF54 /* imagePickerTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1500BD236ADC84000CAF54 /* imagePickerTestUITests.swift */; };
+		CE9A67552402C70100F5941B /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A67542402C70100F5941B /* ImagePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CE1500B9236ADC84000CAF54 /* imagePickerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imagePickerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1500BD236ADC84000CAF54 /* imagePickerTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagePickerTestUITests.swift; sourceTree = "<group>"; };
 		CE1500BF236ADC84000CAF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9A67542402C70100F5941B /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CE1500A4236ADC84000CAF54 /* Assets.xcassets */,
 				CE1500A6236ADC84000CAF54 /* LaunchScreen.storyboard */,
 				CE1500A9236ADC84000CAF54 /* Info.plist */,
+				CE9A67542402C70100F5941B /* ImagePickerViewController.swift */,
 			);
 			path = imagePickerTest;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9A67552402C70100F5941B /* ImagePickerViewController.swift in Sources */,
 				CE1500A0236ADC82000CAF54 /* ViewController.swift in Sources */,
 				CE15009E236ADC82000CAF54 /* AppDelegate.swift in Sources */,
 			);

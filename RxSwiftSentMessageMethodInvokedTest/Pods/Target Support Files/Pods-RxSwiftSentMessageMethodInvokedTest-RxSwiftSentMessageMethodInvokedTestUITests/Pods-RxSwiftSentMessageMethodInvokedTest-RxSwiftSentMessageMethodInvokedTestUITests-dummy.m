@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_RxSwiftSentMessageMethodInvokedTest_RxSwiftSentMessageMethodInvokedTestUITests : NSObject
+@end
+@implementation PodsDummy_Pods_RxSwiftSentMessageMethodInvokedTest_RxSwiftSentMessageMethodInvokedTestUITests
+@end

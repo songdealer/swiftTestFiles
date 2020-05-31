@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16085" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16078.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TextViewHeightTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ISd-hM-Zlc">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0SP-3h-Cdn" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="52"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" canCancelContentTouches="NO" bouncesZoom="NO" text="test" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Zp-Vh-vY6">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="Rd5-Lc-Q3n"/>
+                                                </constraints>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="52" id="Le0-r5-zRC"/>
+                                            <constraint firstItem="1Zp-Vh-vY6" firstAttribute="leading" secondItem="0SP-3h-Cdn" secondAttribute="leading" id="Xkh-Bo-zeM"/>
+                                            <constraint firstAttribute="trailing" secondItem="1Zp-Vh-vY6" secondAttribute="trailing" id="cjC-LF-wTE"/>
+                                            <constraint firstItem="1Zp-Vh-vY6" firstAttribute="top" secondItem="0SP-3h-Cdn" secondAttribute="top" id="uu0-LP-JdI"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="0SP-3h-Cdn" firstAttribute="leading" secondItem="ISd-hM-Zlc" secondAttribute="leading" id="HH1-b2-ZXa"/>
+                                    <constraint firstItem="0SP-3h-Cdn" firstAttribute="width" secondItem="ISd-hM-Zlc" secondAttribute="width" id="HT9-sX-YCj"/>
+                                    <constraint firstItem="0SP-3h-Cdn" firstAttribute="top" secondItem="ISd-hM-Zlc" secondAttribute="top" id="NEl-ax-noa"/>
+                                    <constraint firstAttribute="trailing" secondItem="0SP-3h-Cdn" secondAttribute="trailing" id="p8U-b7-wjq"/>
+                                    <constraint firstAttribute="bottom" secondItem="0SP-3h-Cdn" secondAttribute="bottom" id="vrZ-94-AyA"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ISd-hM-Zlc" secondAttribute="bottom" id="64l-9r-teZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ISd-hM-Zlc" secondAttribute="trailing" id="704-TE-EgO"/>
+                            <constraint firstItem="ISd-hM-Zlc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AFe-X6-4uT"/>
+                            <constraint firstItem="ISd-hM-Zlc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ICa-gI-C2Z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="contentViewHeightConstraint" destination="Le0-r5-zRC" id="vlA-ko-Tnj"/>
+                        <outlet property="heightConstraint" destination="Rd5-Lc-Q3n" id="agh-54-kea"/>
+                        <outlet property="textView" destination="1Zp-Vh-vY6" id="4Ne-Il-6cK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="116"/>
+        </scene>
+    </scenes>
+</document>

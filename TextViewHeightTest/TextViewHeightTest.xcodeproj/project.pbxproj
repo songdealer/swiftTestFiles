@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE753E0B23FD91D100104353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE753E0A23FD91D100104353 /* AppDelegate.swift */; };
+		CE753E0D23FD91D100104353 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE753E0C23FD91D100104353 /* SceneDelegate.swift */; };
+		CE753E0F23FD91D100104353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE753E0E23FD91D100104353 /* ViewController.swift */; };
+		CE753E1223FD91D100104353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE753E1023FD91D100104353 /* Main.storyboard */; };
+		CE753E1523FD91D100104353 /* TextViewHeightTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE753E1323FD91D100104353 /* TextViewHeightTest.xcdatamodeld */; };
+		CE753E1723FD91D600104353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE753E1623FD91D600104353 /* Assets.xcassets */; };
+		CE753E1A23FD91D600104353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE753E1823FD91D600104353 /* LaunchScreen.storyboard */; };
+		CE753E2523FD91D600104353 /* TextViewHeightTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE753E2423FD91D600104353 /* TextViewHeightTestTests.swift */; };
+		CE753E3023FD91D600104353 /* TextViewHeightTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE753E2F23FD91D600104353 /* TextViewHeightTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE753E2123FD91D600104353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE753DFF23FD91D100104353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE753E0623FD91D100104353;
+			remoteInfo = TextViewHeightTest;
+		};
+		CE753E2C23FD91D600104353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE753DFF23FD91D100104353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE753E0623FD91D100104353;
+			remoteInfo = TextViewHeightTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE753E0723FD91D100104353 /* TextViewHeightTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewHeightTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE753E0A23FD91D100104353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE753E0C23FD91D100104353 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE753E0E23FD91D100104353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE753E1123FD91D100104353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE753E1423FD91D100104353 /* TextViewHeightTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TextViewHeightTest.xcdatamodel; sourceTree = "<group>"; };
+		CE753E1623FD91D600104353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE753E1923FD91D600104353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE753E1B23FD91D600104353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE753E2023FD91D600104353 /* TextViewHeightTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextViewHeightTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE753E2423FD91D600104353 /* TextViewHeightTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewHeightTestTests.swift; sourceTree = "<group>"; };
+		CE753E2623FD91D600104353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE753E2B23FD91D600104353 /* TextViewHeightTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextViewHeightTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE753E2F23FD91D600104353 /* TextViewHeightTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewHeightTestUITests.swift; sourceTree = "<group>"; };
+		CE753E3123FD91D600104353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE753E0423FD91D100104353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE753E1D23FD91D600104353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE753E2823FD91D600104353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE753DFE23FD91D100104353 = {
+			isa = PBXGroup;
+			children = (
+				CE753E0923FD91D100104353 /* TextViewHeightTest */,
+				CE753E2323FD91D600104353 /* TextViewHeightTestTests */,
+				CE753E2E23FD91D600104353 /* TextViewHeightTestUITests */,
+				CE753E0823FD91D100104353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE753E0823FD91D100104353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE753E0723FD91D100104353 /* TextViewHeightTest.app */,
+				CE753E2023FD91D600104353 /* TextViewHeightTestTests.xctest */,
+				CE753E2B23FD91D600104353 /* TextViewHeightTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE753E0923FD91D100104353 /* TextViewHeightTest */ = {
+			isa = PBXGroup;
+			children = (
+				CE753E0A23FD91D100104353 /* AppDelegate.swift */,
+				CE753E0C23FD91D100104353 /* SceneDelegate.swift */,
+				CE753E0E23FD91D100104353 /* ViewController.swift */,
+				CE753E1023FD91D100104353 /* Main.storyboard */,
+				CE753E1623FD91D600104353 /* Assets.xcassets */,
+				CE753E1823FD91D600104353 /* LaunchScreen.storyboard */,
+				CE753E1B23FD91D600104353 /* Info.plist */,
+				CE753E1323FD91D100104353 /* TextViewHeightTest.xcdatamodeld */,
+			);
+			path = TextViewHeightTest;
+			sourceTree = "<group>";
+		};
+		CE753E2323FD91D600104353 /* TextViewHeightTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE753E2423FD91D600104353 /* TextViewHeightTestTests.swift */,
+				CE753E2623FD91D600104353 /* Info.plist */,
+			);
+			path = TextViewHeightTestTests;
+			sourceTree = "<group>";
+		};
+		CE753E2E23FD91D600104353 /* TextViewHeightTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE753E2F23FD91D600104353 /* TextViewHeightTestUITests.swift */,
+				CE753E3123FD91D600104353 /* Info.plist */,
+			);
+			path = TextViewHeightTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE753E0623FD91D100104353 /* TextViewHeightTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE753E3423FD91D600104353 /* Build configuration list for PBXNativeTarget "TextViewHeightTest" */;
+			buildPhases = (
+				CE753E0323FD91D100104353 /* Sources */,
+				CE753E0423FD91D100104353 /* Frameworks */,
+				CE753E0523FD91D100104353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextViewHeightTest;
+			productName = TextViewHeightTest;
+			productReference = CE753E0723FD91D100104353 /* TextViewHeightTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE753E1F23FD91D600104353 /* TextViewHeightTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE753E3723FD91D600104353 /* Build configuration list for PBXNativeTarget "TextViewHeightTestTests" */;
+			buildPhases = (
+				CE753E1C23FD91D600104353 /* Sources */,
+				CE753E1D23FD91D600104353 /* Frameworks */,
+				CE753E1E23FD91D600104353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE753E2223FD91D600104353 /* PBXTargetDependency */,
+			);
+			name = TextViewHeightTestTests;
+			productName = TextViewHeightTestTests;
+			productReference = CE753E2023FD91D600104353 /* TextViewHeightTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE753E2A23FD91D600104353 /* TextViewHeightTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE753E3A23FD91D600104353 /* Build configuration list for PBXNativeTarget "TextViewHeightTestUITests" */;
+			buildPhases = (
+				CE753E2723FD91D600104353 /* Sources */,
+				CE753E2823FD91D600104353 /* Frameworks */,
+				CE753E2923FD91D600104353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE753E2D23FD91D600104353 /* PBXTargetDependency */,
+			);
+			name = TextViewHeightTestUITests;
+			productName = TextViewHeightTestUITests;
+			productReference = CE753E2B23FD91D600104353 /* TextViewHeightTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE753DFF23FD91D100104353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = MinG._.;
+				TargetAttributes = {
+					CE753E0623FD91D100104353 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					CE753E1F23FD91D600104353 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CE753E0623FD91D100104353;
+					};
+					CE753E2A23FD91D600104353 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CE753E0623FD91D100104353;
+					};
+				};
+			};
+			buildConfigurationList = CE753E0223FD91D100104353 /* Build configuration list for PBXProject "TextViewHeightTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE753DFE23FD91D100104353;
+			productRefGroup = CE753E0823FD91D100104353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE753E0623FD91D100104353 /* TextViewHeightTest */,
+				CE753E1F23FD91D600104353 /* TextViewHeightTestTests */,
+				CE753E2A23FD91D600104353 /* TextViewHeightTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE753E0523FD91D100104353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE753E1A23FD91D600104353 /* LaunchScreen.storyboard in Resources */,
+				CE753E1723FD91D600104353 /* Assets.xcassets in Resources */,
+				CE753E1223FD91D100104353 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE753E1E23FD91D600104353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE753E2923FD91D600104353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE753E0323FD91D100104353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE753E1523FD91D100104353 /* TextViewHeightTest.xcdatamodeld in Sources */,
+				CE753E0F23FD91D100104353 /* ViewController.swift in Sources */,
+				CE753E0B23FD91D100104353 /* AppDelegate.swift in Sources */,
+				CE753E0D23FD91D100104353 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE753E1C23FD91D600104353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE753E2523FD91D600104353 /* TextViewHeightTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE753E2723FD91D600104353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE753E3023FD91D600104353 /* TextViewHeightTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE753E2223FD91D600104353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE753E0623FD91D100104353 /* TextViewHeightTest */;
+			targetProxy = CE753E2123FD91D600104353 /* PBXContainerItemProxy */;
+		};
+		CE753E2D23FD91D600104353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE753E0623FD91D100104353 /* TextViewHeightTest */;
+			targetProxy = CE753E2C23FD91D600104353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE753E1023FD91D100104353 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE753E1123FD91D100104353 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE753E1823FD91D600104353 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE753E1923FD91D600104353 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE753E3223FD91D600104353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE753E3323FD91D600104353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE753E3523FD91D600104353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = TextViewHeightTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MinG.TextViewHeightTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE753E3623FD91D600104353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = TextViewHeightTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MinG.TextViewHeightTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE753E3823FD91D600104353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = TextViewHeightTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MinG.TextViewHeightTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextViewHeightTest.app/TextViewHeightTest";
+			};
+			name = Debug;
+		};
+		CE753E3923FD91D600104353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = TextViewHeightTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MinG.TextViewHeightTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextViewHeightTest.app/TextViewHeightTest";
+			};
+			name = Release;
+		};
+		CE753E3B23FD91D600104353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = TextViewHeightTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MinG.TextViewHeightTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextViewHeightTest;
+			};
+			name = Debug;
+		};
+		CE753E3C23FD91D600104353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
+				INFOPLIST_FILE = TextViewHeightTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MinG.TextViewHeightTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextViewHeightTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE753E0223FD91D100104353 /* Build configuration list for PBXProject "TextViewHeightTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE753E3223FD91D600104353 /* Debug */,
+				CE753E3323FD91D600104353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE753E3423FD91D600104353 /* Build configuration list for PBXNativeTarget "TextViewHeightTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE753E3523FD91D600104353 /* Debug */,
+				CE753E3623FD91D600104353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE753E3723FD91D600104353 /* Build configuration list for PBXNativeTarget "TextViewHeightTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE753E3823FD91D600104353 /* Debug */,
+				CE753E3923FD91D600104353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE753E3A23FD91D600104353 /* Build configuration list for PBXNativeTarget "TextViewHeightTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE753E3B23FD91D600104353 /* Debug */,
+				CE753E3C23FD91D600104353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE753E1323FD91D100104353 /* TextViewHeightTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE753E1423FD91D100104353 /* TextViewHeightTest.xcdatamodel */,
+			);
+			currentVersion = CE753E1423FD91D100104353 /* TextViewHeightTest.xcdatamodel */;
+			path = TextViewHeightTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE753DFF23FD91D100104353 /* Project object */;
+}

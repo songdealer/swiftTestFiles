@@ -1,0 +1,6 @@
+framework module Pods_RxSwiftBinderTest_RxSwiftBinderTestUITests {
+  umbrella header "Pods-RxSwiftBinderTest-RxSwiftBinderTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

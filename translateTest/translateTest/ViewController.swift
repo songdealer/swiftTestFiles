@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var button: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(view.transform)
+        print(view.frame)
+        
+        view.transform.tx += 10
+        
+        print(view.transform)
+        print(view.frame)
+        
         // Do any additional setup after loading the view.
     }
     

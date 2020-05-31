@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_RxSwiftViewWillAppearTest_RxSwiftViewWillAppearTestUITests : NSObject
+@end
+@implementation PodsDummy_Pods_RxSwiftViewWillAppearTest_RxSwiftViewWillAppearTestUITests
+@end
