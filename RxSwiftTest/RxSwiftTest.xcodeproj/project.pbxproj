@@ -19,6 +19,10 @@
 		CE6EE707247E58B80096892A /* RxSwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EE706247E58B80096892A /* RxSwiftTestTests.swift */; };
 		CE6EE712247E58B90096892A /* RxSwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EE711247E58B90096892A /* RxSwiftTestUITests.swift */; };
 		CE6EE720247E59D60096892A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EE71F247E59D60096892A /* ViewModel.swift */; };
+		CE774AB22487768600BD4788 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE774AB12487768600BD4788 /* TestView.swift */; };
+		CE774AB62487885900BD4788 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE774AB52487885900BD4788 /* MyView.swift */; };
+		CE774AB82487886800BD4788 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE774AB72487886800BD4788 /* MyView.xib */; };
+		CE774ABA2487933F00BD4788 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE774AB92487933F00BD4788 /* Singleton.swift */; };
 		F755D715B4432EAAA37167B2 /* Pods_RxSwiftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7968D603A87CA644888AC4 /* Pods_RxSwiftTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +67,10 @@
 		CE6EE711247E58B90096892A /* RxSwiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftTestUITests.swift; sourceTree = "<group>"; };
 		CE6EE713247E58B90096892A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6EE71F247E59D60096892A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CE774AB12487768600BD4788 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		CE774AB52487885900BD4788 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		CE774AB72487886800BD4788 /* MyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		CE774AB92487933F00BD4788 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		DA2A35D4472352EE0BE5457C /* Pods-RxSwiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftTest.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftTest/Pods-RxSwiftTest.release.xcconfig"; sourceTree = "<group>"; };
 		E7A4B34EAE9E6877DCB6A923 /* Pods-RxSwiftTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftTestTests.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftTestTests/Pods-RxSwiftTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +160,10 @@
 				CE6EE6FD247E58B80096892A /* Info.plist */,
 				CE6C1CE6248103B100A216AF /* TestViewController.swift */,
 				CE6C1CE82481064D00A216AF /* TestCell.swift */,
+				CE774AB12487768600BD4788 /* TestView.swift */,
+				CE774AB52487885900BD4788 /* MyView.swift */,
+				CE774AB72487886800BD4788 /* MyView.xib */,
+				CE774AB92487933F00BD4788 /* Singleton.swift */,
 			);
 			path = RxSwiftTest;
 			sourceTree = "<group>";
@@ -283,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE774AB82487886800BD4788 /* MyView.xib in Resources */,
 				CE6EE6FC247E58B80096892A /* LaunchScreen.storyboard in Resources */,
 				CE6EE6F9247E58B80096892A /* Assets.xcassets in Resources */,
 				CE6EE6F7247E58B60096892A /* Main.storyboard in Resources */,
@@ -413,9 +426,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE774AB62487885900BD4788 /* MyView.swift in Sources */,
+				CE774AB22487768600BD4788 /* TestView.swift in Sources */,
 				CE6EE6F4247E58B60096892A /* ViewController.swift in Sources */,
 				CE6EE720247E59D60096892A /* ViewModel.swift in Sources */,
 				CE6C1CE92481064D00A216AF /* TestCell.swift in Sources */,
+				CE774ABA2487933F00BD4788 /* Singleton.swift in Sources */,
 				CE6C1CE7248103B100A216AF /* TestViewController.swift in Sources */,
 				CE6EE6F0247E58B60096892A /* AppDelegate.swift in Sources */,
 			);

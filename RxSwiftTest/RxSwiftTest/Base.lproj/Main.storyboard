@@ -90,8 +90,18 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T9B-bI-gJO" customClass="MyView" customModule="RxSwiftTest" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="T9B-bI-gJO" firstAttribute="top" secondItem="RIT-1h-goG" secondAttribute="top" id="6Eb-Zl-HO0"/>
+                            <constraint firstItem="T9B-bI-gJO" firstAttribute="leading" secondItem="Xyd-mj-olk" secondAttribute="leading" id="H6D-r9-Sud"/>
+                            <constraint firstItem="Xyd-mj-olk" firstAttribute="bottom" secondItem="T9B-bI-gJO" secondAttribute="bottom" id="k3I-68-Ox2"/>
+                            <constraint firstItem="Xyd-mj-olk" firstAttribute="trailing" secondItem="T9B-bI-gJO" secondAttribute="trailing" id="zZH-iX-Ajh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Xyd-mj-olk"/>
                     </view>
                     <navigationItem key="navigationItem" id="mXO-n1-UDD"/>
@@ -106,9 +116,8 @@
         <!--Navigation Controller-->
         <scene sceneID="auL-ik-CZT">
             <objects>
-                <navigationController id="Kym-zz-3IK" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="Kym-zz-3IK" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eOE-Ko-8Id">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>

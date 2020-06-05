@@ -45,6 +45,12 @@ class TestViewController: UIViewController {
         print(brian.address.fullAddress)
         print(ray.address.fullAddress)
         
+        /*let tv = MyView()
+        tv.frame = self.view.frame
+        self.view.addSubview(tv)
+        print(tv.backgroundColor)
+        print(tv.frame)
+        */
         // Do any additional setup after loading the view.
     }
     
